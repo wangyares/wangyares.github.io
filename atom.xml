@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://wangyares.github.io/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2019-06-08T13:19:39.738Z</updated>
-  <id>http://wangyares.github.io/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>wangyares</name>
@@ -18,33 +18,33 @@
   
   <entry>
     <title>vim</title>
-    <link href="http://wangyares.github.io/2019/06/08/vim/"/>
-    <id>http://wangyares.github.io/2019/06/08/vim/</id>
+    <link href="http://yoursite.com/2019/06/08/vim/"/>
+    <id>http://yoursite.com/2019/06/08/vim/</id>
     <published>2019-06-08T11:44:40.000Z</published>
     <updated>2019-06-08T13:19:39.738Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="//wangyares.github.io/2019/06/08/vim/adorable-animal-canine-1254140.jpg" alt="adorable-animal-canine-1254140"></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​        终于，利用模板搭了一个自己的博客（其实也没用多久），迫不及待地粘上来这篇总结，看一下效果。<a id="more"></a></p><p><strong>1、先打开某个文件：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim 123.txt</span><br></pre></td></tr></table></figure><p><strong>2、转到文件结尾</strong></p><p>​      在命令模式输入 G</p><p><strong>3、转到10行</strong></p><p>​      在命令模式输入 10G</p><p><strong>4、删除所有内容：先用G 转到文件尾，然后使用下面命令：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">：1,.d</span><br></pre></td></tr></table></figure><p><strong>5、删除第10行到第20行的内容：先用20G转到第20行，然后使用下面命令：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">：9,.d</span><br></pre></td></tr></table></figure><p><strong>6、关于删除的一些说明：</strong></p><p>​      1、 在vim中，” .  “表示当前行，“1，。”表示从第一行到当前行，“d ” 表示删除。</p><p>​      2 、如果只是想删除某一行，那么把光标指到该行，然后输入d d 即可。</p><p><strong>7、设置显示行号</strong></p><p>在vim里执行(在普通模式下直接按冒号，并输入下面的命令)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> number</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><img src="//yoursite.com/2019/06/08/vim/adorable-animal-canine-1254140.jpg" alt="adorable-animal-canine-1254140"></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​        终于，利用模板搭了一个自己的博客（其实也没用多久），迫不及待地粘上来这篇总结，看一下效果。<a id="more"></a></p><p><strong>1、先打开某个文件：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim 123.txt</span><br></pre></td></tr></table></figure><p><strong>2、转到文件结尾</strong></p><p>​      在命令模式输入 G</p><p><strong>3、转到10行</strong></p><p>​      在命令模式输入 10G</p><p><strong>4、删除所有内容：先用G 转到文件尾，然后使用下面命令：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">：1,.d</span><br></pre></td></tr></table></figure><p><strong>5、删除第10行到第20行的内容：先用20G转到第20行，然后使用下面命令：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">：9,.d</span><br></pre></td></tr></table></figure><p><strong>6、关于删除的一些说明：</strong></p><p>​      1、 在vim中，” .  “表示当前行，“1，。”表示从第一行到当前行，“d ” 表示删除。</p><p>​      2 、如果只是想删除某一行，那么把光标指到该行，然后输入d d 即可。</p><p><strong>7、设置显示行号</strong></p><p>在vim里执行(在普通模式下直接按冒号，并输入下面的命令)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> number</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;//wangyares.github.io/2019/06/08/vim/adorable-animal-canine-1254140.jpg&quot; alt=&quot;adorable-animal-canine-1254140&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;//yoursite.com/2019/06/08/vim/adorable-animal-canine-1254140.jpg&quot; alt=&quot;adorable-animal-canine-1254140&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​        终于，利用模板搭了一个自己的博客（其实也没用多久），迫不及待地粘上来这篇总结，看一下效果。&lt;/p&gt;
     
     </summary>
     
-      <category term="ubuntu" scheme="http://wangyares.github.io/categories/ubuntu/"/>
+      <category term="ubuntu" scheme="http://yoursite.com/categories/ubuntu/"/>
     
     
-      <category term="ubuntu" scheme="http://wangyares.github.io/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://yoursite.com/tags/ubuntu/"/>
     
-      <category term="vim" scheme="http://wangyares.github.io/tags/vim/"/>
+      <category term="vim" scheme="http://yoursite.com/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wangyares.github.io/2019/06/06/hello-world/"/>
-    <id>http://wangyares.github.io/2019/06/06/hello-world/</id>
+    <link href="http://yoursite.com/2019/06/06/hello-world/"/>
+    <id>http://yoursite.com/2019/06/06/hello-world/</id>
     <published>2019-06-06T08:08:23.229Z</published>
     <updated>2019-06-08T11:58:39.494Z</updated>
     
