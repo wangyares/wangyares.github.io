@@ -96,20 +96,25 @@
 
 
 
-  <meta name="description" content="前言​        终于，利用模板搭了一个自己的博客（其实也没用多久），迫不及待地粘上来这篇总结，看一下效果。">
-<meta name="keywords" content="ubuntu,vim">
+  <meta name="description" content="前言​        这篇博客是要讲PPT，就把之前记录的专利检索系统整理了一下。话说回来，我就想找一个可爱的橘猫镇楼，但是。。。">
+<meta name="keywords" content="Solr,ES">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vim">
-<meta property="og:url" content="http://wangyares.github.io/2019/06/08/vim/index.html">
+<meta property="og:title" content="专利检索系统的演变">
+<meta property="og:url" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/index.html">
 <meta property="og:site_name" content="爬罗剔抉">
-<meta property="og:description" content="前言​        终于，利用模板搭了一个自己的博客（其实也没用多久），迫不及待地粘上来这篇总结，看一下效果。">
+<meta property="og:description" content="前言​        这篇博客是要讲PPT，就把之前记录的专利检索系统整理了一下。话说回来，我就想找一个可爱的橘猫镇楼，但是。。。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://wangyares.github.io/2019/06/08/vim/adorable-animal-canine-1254140.jpg">
-<meta property="og:updated_time" content="2019-06-08T13:19:39.738Z">
+<meta property="og:image" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/animal-animal-photography-cat-115011.jpg">
+<meta property="og:image" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/solr.jpg">
+<meta property="og:image" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/%E5%80%92%E6%8E%92.jpg">
+<meta property="og:image" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/es%E4%BC%98%E5%8A%BF1.png">
+<meta property="og:image" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/es%E4%BC%98%E5%8A%BF2.jpg">
+<meta property="og:image" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/%E4%BA%AC%E4%B8%9C%E7%99%BD%E6%9D%A1.jpg">
+<meta property="og:updated_time" content="2019-06-10T08:31:00.285Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="vim">
-<meta name="twitter:description" content="前言​        终于，利用模板搭了一个自己的博客（其实也没用多久），迫不及待地粘上来这篇总结，看一下效果。">
-<meta name="twitter:image" content="http://wangyares.github.io/2019/06/08/vim/adorable-animal-canine-1254140.jpg">
+<meta name="twitter:title" content="专利检索系统的演变">
+<meta name="twitter:description" content="前言​        这篇博客是要讲PPT，就把之前记录的专利检索系统整理了一下。话说回来，我就想找一个可爱的橘猫镇楼，但是。。。">
+<meta name="twitter:image" content="http://wangyares.github.io/2019/06/10/专利检索系统的演变/animal-animal-photography-cat-115011.jpg">
 
 
 
@@ -119,7 +124,7 @@
 
   
   
-  <link rel="canonical" href="http://wangyares.github.io/2019/06/08/vim/">
+  <link rel="canonical" href="http://wangyares.github.io/2019/06/10/专利检索系统的演变/">
 
 
 
@@ -129,7 +134,7 @@
   };
 </script>
 
-  <title>vim | 爬罗剔抉</title>
+  <title>专利检索系统的演变 | 爬罗剔抉</title>
   
 
 
@@ -359,7 +364,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://wangyares.github.io/2019/06/08/vim/">
+    <link itemprop="mainEntityOfPage" href="http://wangyares.github.io/2019/06/10/专利检索系统的演变/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wangyares">
@@ -376,7 +381,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">vim
+          <h1 class="post-title" itemprop="name headline">专利检索系统的演变
 
               
             
@@ -402,7 +407,7 @@
                 
               
 
-              <time title="创建时间：2019-06-08 19:44:40 / 修改时间：21:19:39" itemprop="dateCreated datePublished" datetime="2019-06-08T19:44:40+08:00">2019-06-08</time>
+              <time title="创建时间：2019-06-10 09:44:33 / 修改时间：16:31:00" itemprop="dateCreated datePublished" datetime="2019-06-10T09:44:33+08:00">2019-06-10</time>
             
 
             
@@ -424,7 +429,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/ubuntu/" itemprop="url" rel="index"><span itemprop="name">ubuntu</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/检索/" itemprop="url" rel="index"><span itemprop="name">检索</span></a></span>
 
                 
                 
@@ -459,28 +464,69 @@
       
 
       
-        <p><img src="//wangyares.github.io/2019/06/08/vim/adorable-animal-canine-1254140.jpg" alt="adorable-animal-canine-1254140"></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​        终于，利用模板搭了一个自己的博客（其实也没用多久），迫不及待地粘上来这篇总结，看一下效果。<a id="more"></a></p>
-<p><strong>1、先打开某个文件：</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim 123.txt</span><br></pre></td></tr></table></figure>
+        <p><img src="//wangyares.github.io/2019/06/10/专利检索系统的演变/animal-animal-photography-cat-115011.jpg" alt="animal-animal-photography-cat-115011"></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        这篇博客是要讲PPT，就把之前记录的专利检索系统整理了一下。话说回来，我就想找一个可爱的橘猫镇楼，但是。。。<a id="more"></a></p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="1-写在前面"><a href="#1-写在前面" class="headerlink" title="1. 写在前面"></a>1. 写在前面</h2><p>​        对于一个检索系统，用户关注的点是什么，或者说需求是什么，我能想到的，总结起来大概是下面几点：</p>
+<ul>
+<li><p>检索速度要快，耗时越长用户体验越差</p>
+</li>
+<li><p>检索结果要准确，既然是检索，肯定是要找到自己想要的信息。如果检索结果不相关，这次检索就是失败的。</p>
+</li>
+<li><p>检索的方式尽可能的多，对于一些特殊的需求，用户没办法用文字完整的表述出来，因此需要用到图片或者是其他信息来进行检索，检索系统应当对这种需求进行支持。</p>
+</li>
+</ul>
+<p>​        既然用户有以上的需求，我们设计系统的时候就要考虑实现这些功能。以下是实验室检索系统发展历程。</p>
+<h2 id="2-Solr时代"><a href="#2-Solr时代" class="headerlink" title="2. Solr时代"></a>2. Solr时代</h2><p>​        实验室最初的检索系统的核心是Solr。</p>
+<p><img src="//wangyares.github.io/2019/06/10/专利检索系统的演变/solr.jpg" alt="solr"></p>
+<p>​        Solr（读作“solar”）是Apache Lucene项目的开源企业搜索平台。其主要功能包括全文检索、命中标示、分面搜索、动态聚类、数据库集成，以及富文本（如Word、PDF）的处理。Solr是高度可扩展的，并提供了分布式搜索和索引复制。Solr是最流行的企业级搜索引擎，Solr4 还增加了NoSQL支持。（这段是复制的，比较官方，看一下就好）</p>
+<h3 id="2-1-为什么选择Solr"><a href="#2-1-为什么选择Solr" class="headerlink" title="2.1 为什么选择Solr"></a>2.1 为什么选择Solr</h3><p>​        Solr这套系统是上一届传下来的，我经过一些询问和猜测得出以下观点：</p>
+<ul>
+<li>传统的数据库缺乏高效的索引方式，所以查询的速度在大量数据的情况下是很慢。</li>
+<li>Solr相对于传统数据库检索，检索效率和检索的准确性都有很大提升。</li>
+<li>Solr可以实现图片检索，可以扩展检索方式。</li>
+</ul>
+<h4 id="2-1-1-传统数据库的检索劣势"><a href="#2-1-1-传统数据库的检索劣势" class="headerlink" title="2.1.1 传统数据库的检索劣势"></a>2.1.1 传统数据库的检索劣势</h4><p>​        传统的数据库是根据SQL语句查询，搜索结果比较差。比如我们搜索“鹰霆科技”，在SQL里面只能这样匹配：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> 表名 <span class="keyword">where</span> 字段名 <span class="keyword">like</span> ‘%鹰霆科技%’</span><br></pre></td></tr></table></figure>
 
-<p><strong>2、转到文件结尾</strong></p>
-<p>​      在命令模式输入 G</p>
-<p><strong>3、转到10行</strong></p>
-<p>​      在命令模式输入 10G</p>
-<p><strong>4、删除所有内容：先用G 转到文件尾，然后使用下面命令：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">：1,.d</span><br></pre></td></tr></table></figure>
+<p>​        这只能对输入的关键字首尾位进行模糊匹配。如果误多输入一个字符，可能就导致查询出的结果远离用户的预期。</p>
+<p>​        而且类似于MySQL具有性能瓶颈，据D.V.B 团队以及Cmshelp 团队做CMS 系统评测时的结果来看，MySQL单表大约在2千万条记录（4G）下能够良好运行，经过数据库的优化后5千万条记录（10G）下运行良好。看起来很大了是不是，但是我们专利数据计量单位是<strong>T</strong>。。根本不是一个量级，用SQL查询肯定慢的要死。用户体验极差。</p>
+<h4 id="2-1-2-Solr的优势"><a href="#2-1-2-Solr的优势" class="headerlink" title="2.1.2 Solr的优势"></a>2.1.2 Solr的优势</h4><p>​        上文已经介绍，Solr的优势在于检索的速度和检索的方式，此外Solr可以支持的数据量上限是MySQL无法比拟的。</p>
+<p>​        这里解释一下为什么Solr会比传统数据库快。原因就是其基于Lucene实现的全文索引。这个全文索引的核心是倒排索引。因此我们可以粗略得出如下结论：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Solr快是因为它采用了倒排索引（???）</span><br><span class="line">Solr是封装的Lucene，提供了方便使用的接口</span><br></pre></td></tr></table></figure>
 
-<p><strong>5、删除第10行到第20行的内容：先用20G转到第20行，然后使用下面命令：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">：9,.d</span><br></pre></td></tr></table></figure>
-
-<p><strong>6、关于删除的一些说明：</strong></p>
-<p>​      1、 在vim中，” .  “表示当前行，“1，。”表示从第一行到当前行，“d ” 表示删除。</p>
-<p>​      2 、如果只是想删除某一行，那么把光标指到该行，然后输入d d 即可。</p>
-<p><strong>7、设置显示行号</strong></p>
-<p>在vim里执行(在普通模式下直接按冒号，并输入下面的命令)</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> number</span><br></pre></td></tr></table></figure>
-
+<p>​        那么问题就变成什么是倒排索引：</p>
+<p><img src="//wangyares.github.io/2019/06/10/专利检索系统的演变/%E5%80%92%E6%8E%92.jpg" alt="倒排"></p>
+<p>​        Solr内部在实际的运用中，在业务空闲时事先根据左图内容，创建新的倒排索引结构的数据区域（右图）。这个索引表只需要创建一次就可以重复使用。假设我们输入的检索词为：“谷歌之父”。</p>
+<ul>
+<li>Solr会先对输入结果进行分词（你可以选择不分词检索），得到两个词“谷歌”和“之父”。</li>
+<li>在倒排索引表中检索对应词，发现包含谷歌的文档编号为：1，2，3，4，5；包含之父的文档编号为：1，2，4，5.</li>
+<li>此时会返回搜索结果：1，2，4，5，3.命中的单词越多的文档排名越靠前。</li>
+</ul>
+<p>​        此外，Solr还可以实现图像检索，以图搜图，这是我们项目的一大卖点，MySQL没办法实现。</p>
+<h2 id="3-ElasticSearch时代"><a href="#3-ElasticSearch时代" class="headerlink" title="3. ElasticSearch时代"></a>3. ElasticSearch时代</h2><p>​        既然Solr已经有完美的实现了用户的三个需求：速度快，检索结果准确，支持图像检索。那为什么又要换成了ES。原因是随着数据量的不断增大，新的问题出现了：Solr的检索速度越来越慢。此时的Solr是单机模式，并没有搭建分布式。根据网上的实验数据显示：</p>
+<p><img src="//wangyares.github.io/2019/06/10/专利检索系统的演变/es%E4%BC%98%E5%8A%BF1.png" alt="es优势1"></p>
+<p>​        随着数据量的增加，Solr的搜索效率会变得更低，而Elasticsearch却没有明显的变化。</p>
+<p><img src="//wangyares.github.io/2019/06/10/专利检索系统的演变/es%E4%BC%98%E5%8A%BF2.jpg" alt="es优势2"></p>
+<p>​        上图为将搜索引擎从Solr转到Elasticsearch以后的平均查询速度有了50倍的提升。</p>
+<h3 id="3-1-ES的优势"><a href="#3-1-ES的优势" class="headerlink" title="3.1 ES的优势"></a>3.1 ES的优势</h3><p>​        Elasticsearch它不但包括了全文搜索功能，还可以进行以下工作:</p>
+<ul>
+<li>分布式实时文件存储，并将每一个字段都编入索引，使其可以被搜索。</li>
+<li>实时分析的分布式搜索引擎。</li>
+<li>可以扩展到上百台服务器，处理PB级别的结构化或非结构化数据。</li>
+</ul>
+<p>​        分布式可以说是救了老命。。实验室的老古董机器单机真的是存不了也处理不来这么多数据。</p>
+<h3 id="3-2-ES的缺点"><a href="#3-2-ES的缺点" class="headerlink" title="3.2 ES的缺点"></a>3.2 ES的缺点</h3><p>​        相对于Solr可以直接支持图片搜索服务，ES在这方面是欠缺的。为此如何使用ES进行图片检索成为了新的问题。</p>
+<p>​        最后的解决方案是借鉴了深度学习的思路。我们对专利图片应用卷积神经网络提取特征，在ES新增HashCode字段，每次进行图片检索的时候，先提取图片特征，再利用图片特征进行检索。这样就将图片检索转化成了文本检索，成功实现了功能。</p>
+<h2 id="4-新的方向"><a href="#4-新的方向" class="headerlink" title="4. 新的方向"></a>4. 新的方向</h2><p>​        目前专利检索系统采用的是ES分布式集群的解决方案，这种方案下所有的数据都存在于ES的索引中。随着数据的增加（又是数据增加），又出现了新的问题（又有问题！！！）。</p>
+<ul>
+<li><p>图片特征的提取的耗时问题。目前图片的提取是在一台高性能的计算机上执行的，速度可以到达100张/s（好像真的不是很快）。目前的测试使用是不存在问题，但是万一哪天真的上线给其他公司提供服务0.0，效率肯定不行。</p>
+</li>
+<li><p>数据在逐年增加（好像是逐月），ES的检索速度也下降了。推测问题是出在之前设计的时候，将专利所有的数据都存在ES的索引上了，这导致ES索引上存了大量和检索不相关的数据，使性能下降。</p>
+</li>
+</ul>
+<p>​        出了问题就要解决问题。本质上这两个问题一个是高并发问题，另一个是大数据问题。参考了京东白条的架构方案，未来的发展方向是这样：</p>
+<p><img src="//wangyares.github.io/2019/06/10/专利检索系统的演变/%E4%BA%AC%E4%B8%9C%E7%99%BD%E6%9D%A1.jpg" alt="京东白条"></p>
+<p>​        方向：采用分布式解决方案，利用Hbase存储专利全部数据，ES索引只存储索引的字段。两个集群协调完成检索任务。</p>
 
       
     </div>
@@ -507,9 +553,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
+            <a href="/tags/Solr/" rel="tag"># Solr</a>
           
-            <a href="/tags/vim/" rel="tag"># vim</a>
+            <a href="/tags/ES/" rel="tag"># ES</a>
           
         </div>
       
@@ -522,8 +568,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/06/06/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2019/06/08/vim/" rel="next" title="vim">
+                <i class="fa fa-chevron-left"></i> vim
               </a>
             
           </div>
@@ -531,10 +577,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/06/10/专利检索系统的演变/" rel="prev" title="专利检索系统的演变">
-                专利检索系统的演变 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -696,7 +738,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#正文"><span class="nav-number">2.</span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-写在前面"><span class="nav-number">2.1.</span> <span class="nav-text">1. 写在前面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Solr时代"><span class="nav-number">2.2.</span> <span class="nav-text">2. Solr时代</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-为什么选择Solr"><span class="nav-number">2.2.1.</span> <span class="nav-text">2.1 为什么选择Solr</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-1-传统数据库的检索劣势"><span class="nav-number">2.2.1.1.</span> <span class="nav-text">2.1.1 传统数据库的检索劣势</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-2-Solr的优势"><span class="nav-number">2.2.1.2.</span> <span class="nav-text">2.1.2 Solr的优势</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-ElasticSearch时代"><span class="nav-number">2.3.</span> <span class="nav-text">3. ElasticSearch时代</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-ES的优势"><span class="nav-number">2.3.1.</span> <span class="nav-text">3.1 ES的优势</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-ES的缺点"><span class="nav-number">2.3.2.</span> <span class="nav-text">3.2 ES的缺点</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-新的方向"><span class="nav-number">2.4.</span> <span class="nav-text">4. 新的方向</span></a></li></ol></li></ol></div>
             
 
           </div>
