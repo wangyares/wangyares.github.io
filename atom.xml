@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wangyares.github.io/"/>
-  <updated>2019-06-10T08:31:00.285Z</updated>
+  <updated>2019-06-21T04:14:27.968Z</updated>
   <id>http://wangyares.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能问答1</title>
+    <link href="http://wangyares.github.io/2019/06/21/%E6%99%BA%E8%83%BD%E9%97%AE%E7%AD%941/"/>
+    <id>http://wangyares.github.io/2019/06/21/智能问答1/</id>
+    <published>2019-06-21T04:03:56.000Z</published>
+    <updated>2019-06-21T04:14:27.968Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="//wangyares.github.io/2019/06/21/智能问答1/arid-desert-dry-2417260.jpg" alt="arid-desert-dry-2417260"></p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        最近要考政治了，两本书要背，但是还有新任务。。。这个是最近学习智能问答的一个概述，详细的以后再更新。。<a id="more"></a></p><h1 id="智能问答"><a href="#智能问答" class="headerlink" title="智能问答"></a>智能问答</h1><h2 id="一-任务分类"><a href="#一-任务分类" class="headerlink" title="一.任务分类"></a>一.任务分类</h2><p>​        </p><ol><li><p>知识图谱问答</p></li><li><p>表格问答</p></li><li><p>文本问答</p></li><li><p>社区问答</p></li></ol><h2 id="二-准备知识"><a href="#二-准备知识" class="headerlink" title="二.准备知识"></a>二.准备知识</h2><h3 id="2-1自然语言问题分类"><a href="#2-1自然语言问题分类" class="headerlink" title="2.1自然语言问题分类"></a>2.1自然语言问题分类</h3><ol><li><p>事实类问题</p></li><li><p>是非类问题</p></li><li><p>定义类问题</p></li><li><p>列表类问题</p></li><li><p>比较类问题</p></li><li><p>意见类问题</p></li><li><p>指导类问题</p></li></ol><p>事实类问题通常比较客观，适合基于<strong>知识图谱</strong>和<strong>文本</strong>生成对应点的答案；</p><p>是非类问题适合基于<strong>知识图谱</strong>或<strong>常识知识库</strong>进行推理生成答案；</p><p>定义类问题提问模式比较固定，适合基于<strong>知识图谱</strong>、<strong>词典</strong>或者<strong>文本</strong>生成对应的答案；</p><p>列表类问题适合<strong>知识图谱</strong>和<strong>网络表格</strong>；</p><p>比较类、意见类和指导类问题适合基于<strong>社区</strong>网站的&lt;问题，答案&gt;对进行解答。</p><h2 id="三-知识图谱问答"><a href="#三-知识图谱问答" class="headerlink" title="三.知识图谱问答"></a>三.知识图谱问答</h2><p>​        知识图谱，又被称为knowledge graph或者KB，是指<strong>人工编辑</strong>的方式构建<strong>图结构知识库</strong>，知识图谱中的基本单位被称为<strong>事实（fact）</strong>，每个事实记录了现实世界中的一条知识，由若干<strong>实体（节点）</strong>和<strong>谓词（边）</strong>构成。具体来说事实在知识图谱中的表示方式分为两类：</p><ul><li><p>三元事实组</p></li><li><p>CVT事实组</p></li></ul><h2 id="四-表格问答"><a href="#四-表格问答" class="headerlink" title="四.表格问答"></a>四.表格问答</h2><p>​        表格问答，基于给定的表格集合生成问题对应得答案。该任务又细分成表格检索和答案生成两步，前者负责从表格集合中找到输入相关的表格，后者负责基于检回来的相关表格生成对应得答案。</p><h2 id="五-文本问答"><a href="#五-文本问答" class="headerlink" title="五.文本问答"></a>五.文本问答</h2><p>​        文本问答，基于给定文本生成对应答案，按照答案的<strong>颗粒度</strong>不同，文本问答可以分成<strong>答案句子选择</strong>和<strong>机器阅读理解</strong>。</p><ul><li>答案句子选择：从文本中寻找能够作为问答的<strong>句子</strong>。</li><li>机器阅读理解：从文本中寻找能够作为答案的<strong>短语</strong>。</li></ul><h2 id="六-社区问答"><a href="#六-社区问答" class="headerlink" title="六.社区问答"></a>六.社区问答</h2><p>​        社区问答基于从问答社区网站抓取的<strong>答案对</strong>进行问答任务。</p><p>​        问答对：是指问答社区网站上提供的&lt;问题。答案&gt;对数据集合。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;//wangyares.github.io/2019/06/21/智能问答1/arid-desert-dry-2417260.jpg&quot; alt=&quot;arid-desert-dry-2417260&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;​        最近要考政治了，两本书要背，但是还有新任务。。。这个是最近学习智能问答的一个概述，详细的以后再更新。。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="知识图谱" scheme="http://wangyares.github.io/categories/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/"/>
+    
+    
+      <category term="知识图谱" scheme="http://wangyares.github.io/tags/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>专利检索系统的演变</title>
